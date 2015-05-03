@@ -2,6 +2,7 @@
   "name": "message-verifier",
   "version": "0.0.1",
   "description": "Makes it easy to generate and verify messages which are signed to prevent tampering",
+  "repository": "trekjs/message-verifier",
   "author": "fundon cfddream@gmail.com",
   "license": "MIT",
   "keywords": [
