@@ -1,6 +1,6 @@
 {
   "name": "message-verifier",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Makes it easy to generate and verify messages which are signed to prevent tampering",
   "repository": "trekjs/message-verifier",
   "author": "fundon cfddream@gmail.com",
@@ -18,7 +18,7 @@
     "test-cov": "babel-node node_modules/.bin/isparta cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/**/*.test.js"
   },
   "devDependencies": {
-    "babel": "^5.2.6",
+    "babel": "^5.2.17",
     "isparta": "^3.0.3",
     "mocha": "^2.2.4"
   },
