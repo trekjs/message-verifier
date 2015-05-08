@@ -30,7 +30,5 @@
     "HISTORY.md",
     "lib"
   ],
-  "dependencies": {
-    "slow-equals": "0.0.2"
-  }
+  "dependencies": {}
 }

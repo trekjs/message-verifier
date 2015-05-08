@@ -1,5 +1,4 @@
 import { createHmac } from 'crypto';
-import slowEquals from 'slow-equals';
 
 export default class MessageVerifier {
 
@@ -47,6 +46,6 @@ export default class MessageVerifier {
   }
 
   compare(a, b) {
-    return slowEquals(a, b);
+    return a === b;
   }
 }
